@@ -1950,6 +1950,15 @@ ul, ol {
 .map iframe {
 	width: 100%;
 }
+
+.map_home {
+	height: 470px;
+	-webkit-box-shadow: 0px 14px 35px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 14px 35px rgba(0, 0, 0, 0.15);
+	margin-top: 50px;
+	margin-left: 55%;
+	margin-bottom: 75px;
+}
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 
 @media only screen and (min-width: 1554px) and (max-width: 1920px) {
