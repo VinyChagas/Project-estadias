@@ -2350,3 +2350,10 @@ ul, ol {
 		width: 35%!important;
 	}
 }
+
+.classLoginCntainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
