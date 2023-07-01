@@ -1,0 +1,109 @@
+body {
+    background-image: url("images/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    overflow-x: hidden;
+}
+
+.refugioForm {
+    display: flex;
+    position: relative;
+    padding: 80px;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+}
+
+.headerLogin {
+    position: relative;
+    top: 50px;
+    left: 0%;
+    font-size: 20px;
+    color: white;
+
+}
+
+.headerLogin h1 {
+    text-align: center;
+}
+
+.headerLogin grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputText {
+    height: 40px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 0 0 30px;
+    opacity: 90%;
+    margin: 10px auto;
+
+}
+
+::-webkit-input-placeholder {
+    color: rgb(49, 48, 48);
+}
+
+i {
+    position: relative;
+    top: 5px;
+
+}
+
+#submitBtn {
+
+    position: relative;
+    top: 10px;
+    height: 40px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-family: comic Sans MS;
+    color: white;
+    background-color: black;
+    margin: 0 5px;
+
+}
+
+#lupaPass {
+    position: relative;
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 5px;
+}
+
+p {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 5px;
+}
